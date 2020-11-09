@@ -1,0 +1,6 @@
+v1
+[] Place to store todos
+[] Way to display todos
+[] Way to add a todo
+[] Way to edit todos
+[] Way to remove a todo
