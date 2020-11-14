@@ -1,6 +1,6 @@
 v1
-[] Place to store todos
-[] Way to display todos
-[] Way to add a todo
-[] Way to edit todos
-[] Way to remove a todo
+[x] Place to store todos
+[x] Way to display todos
+[x] Way to add a todo
+[x] Way to edit todos
+[x] Way to remove a todo

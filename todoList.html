@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <title>ToDo app</title>
-  </head>
-  
-  <body>
-    <script>
-      var todos = ['item 1', 'item 2', 'item 3'];
-    </script>
-  </body>
+
+<head>
+  <title>Practical JS</title>
+</head>
+
+<body>
+  <script>
+    var todos = ['Item 1', 'Item 2', 'Item 3'];
+
+    console.log(todos);
+
+    function add(todoItem) {
+      todos.push(todoItem);
+      console.log(todos);
+    }
+
+    function edit(position, editedItem) {
+      todos[position] = editedItem;
+      console.log(todos);
+    }
+
+    function remove(position){
+      todos.splice(position, 1);
+      console.log(todos);
+    }
+
+  </script>
+</body>
+
 </html>
